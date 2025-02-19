@@ -1,19 +1,6 @@
 <template>
-  <!--
-    This example requires updating your template:
+  <guest-layout title="Reset your password">
 
-    ```
-    <html class="h-full bg-white">
-    <body class="h-full">
-    ```
-  -->
-  <div class="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
-    <div class="sm:mx-auto sm:w-full sm:max-w-sm">
-      <img class="mx-auto h-10 w-auto" src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company" />
-      <h2 class="mt-10 text-center text-2xl/9 font-bold tracking-tight text-gray-900">Set new  Password</h2>
-    </div>
-
-    <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
       <form class="space-y-6" action="#" method="POST">
         <div>
           <label for="email" class="block text-sm/6 font-medium text-gray-900">New Password </label>
@@ -34,7 +21,6 @@
         </div>
       </form>
 
-     
-    </div>
-  </div>
+    </guest-layout>
+
 </template>

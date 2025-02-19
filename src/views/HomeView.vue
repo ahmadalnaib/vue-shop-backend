@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import GuestLayout from '@/components/GuestLayout.vue';
 
 </script>
 
 <template>
-  <main>
+  <guest-layout title="Sign in to your account">
 
-  </main>
+  </guest-layout>
 </template>
